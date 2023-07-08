@@ -10,6 +10,8 @@
       "require": "./dist/cjs/index.cjs"
     }
   },
+  "type": "module",
+  "sideEffects": false,
   "keywords": [
     "jsxte",
     "htmx"
@@ -31,6 +33,12 @@
     "test:prettier": "prettier -c ./src",
     "test:tsc": "tsc --noEmit",
     "build": "node ./scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=14.14.0"
+  },
+  "optionalDependencies": {
+    "htmx.org": ">=1.9.2"
   },
   "devDependencies": {
     "@ncpa0cpl/nodepack": "^2.2.2",

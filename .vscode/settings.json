@@ -6,10 +6,9 @@
   ],
   "json.schemas": [
     {
-      "fileMatch": [
-        "git-hook-tasks.config.json"
-      ],
+      "fileMatch": ["git-hook-tasks.config.json"],
       "url": "./node_modules/git-hook-tasks/dist/config/json-schema.json"
     }
-  ]
+  ],
+  "cSpell.words": ["Htmx"]
 }

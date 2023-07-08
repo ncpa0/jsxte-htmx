@@ -11,12 +11,18 @@ async function main() {
     srcDir: p("src"),
     outDir: p("dist"),
     tsConfig: p("tsconfig.json"),
-    target: "ES2020",
+    target: "ES2022",
     declarations: true,
     preset: {
       node: true,
     },
     formats: ["esm", "cjs"],
+    isomorphicImports: {
+      "./htmx-src.tsx": {
+        mjs: "./htmx-src.esm.tsx",
+        cjs: "./htmx-src.commonjs.tsx",
+      },
+    },
   });
 }
 

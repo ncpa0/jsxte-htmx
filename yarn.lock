@@ -2925,10 +2925,10 @@ jsonc-parser@^3.2.0:
   resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.2.0.tgz#31ff3f4c2b9793f89c67212627c51c6394f88e76"
   integrity sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==
 
-jsxte@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/jsxte/-/jsxte-2.3.1.tgz#aac357112067567abf3fec239af610485c6f655b"
-  integrity sha512-tgHsK9C2Qn28ou7oRBVKeL6efyazrE+hVZJ4YsQKVLzwzLXxFhp5nb+sSFUFZRxEyBGQqmnBQYzSW3W8fI6Fvg==
+jsxte@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/jsxte/-/jsxte-3.0.0.tgz#7db4447400a0901d7daacb19f4f22026cbfb6104"
+  integrity sha512-jr0h7vQgKkn6PcQAt+sNiwtsp8WfV3qQOQ4DCtImvDk88MYZVIGxXy9L2jSjwTDyizsr68KGzZtvef9RX3ympA==
 
 kleur@^3.0.3:
   version "3.0.3"
